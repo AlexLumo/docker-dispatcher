@@ -1,0 +1,13 @@
+version: "3"
+services:
+  nginx:
+    build:
+      dockerfile: Dockerfile
+      context: ./httpd
+    ports:
+      - "8888:80"
+    volumes:
+      - ./cache/:/usr/local/apache2/cache
+      - ./httpd/dispatcher:/usr/local/apache2/conf/dispatcher
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
