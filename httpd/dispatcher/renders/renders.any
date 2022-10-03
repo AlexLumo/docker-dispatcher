@@ -1,4 +1,4 @@
- /rend01 {
+/rend01 {
   # Hostname or IP of the render
   /hostname "host.docker.internal"
   # Port of the render
