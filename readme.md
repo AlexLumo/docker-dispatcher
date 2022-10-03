@@ -1,6 +1,6 @@
 Cached files are located in /cache folder
 
-To simulate activation or deletion of page you can you the following CURL commands
+To simulate activation or deletion of page you can use the following CURL commands
 
 curl \
  -H "CQ-Action: Activate" -H "CQ-Handle: /content/test.html" \
