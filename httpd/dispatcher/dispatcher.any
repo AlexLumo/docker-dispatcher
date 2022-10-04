@@ -79,7 +79,7 @@
       # document root of the webserver. When an activation request for some 
       # page is received, only files within the same subtree are affected 
       # by the invalidation.
-      /statfileslevel "3"
+      #/statfileslevel "3"
       
       # Flag indicating whether to cache responses to requests that contain
       # authorization information.
@@ -189,7 +189,7 @@
       # expiry date. When the cache file is requested past the modification time
       # it is automatically re-requested from the backend.
       #
-      #/enableTTL "1"
+      /enableTTL "1"
 
       }
       
